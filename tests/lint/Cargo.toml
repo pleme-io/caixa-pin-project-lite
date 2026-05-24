@@ -1,0 +1,16 @@
+[package]
+name = "lint"
+version = "0.0.0"
+edition = "2018"
+publish = false
+
+[lib]
+path = "lib.rs"
+doctest = false
+
+[dependencies]
+pin-project-lite = { path = "../.." }
+
+[lints]
+# Set at the crate root.
+# workspace = true
